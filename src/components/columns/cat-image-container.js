@@ -44,17 +44,14 @@ export default class CatImageContainer  extends Component {
   render() {
 
     return (
-      <div>
+      <div className="cat-items-wrapper">
         <div className="cat-image-wrapper">
-          <img src={this.state.data}></img>  
+          <img className="cat-image" src={this.state.data}></img>  
         </div>
 
         <div className="cat-btn-wrapper">
           <button className='cat-btn' onClick={() => this.handleRandomize()}>New Cat</button>
         </div>
-
-        
-        {this.CatImages()}
       </div>
     );
   } 

@@ -1,0 +1,19 @@
+.cat-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+    align-items: center;
+    background-color: darkred;
+    border: 1px solid black;
+
+    .cat-image-wrapper {
+        align-items: center;
+        background-size: cover;
+        background-color: darkred;
+
+        .cat-image {
+            height: calc(100vh - 84px);
+            width: 100%;
+        }
+    }
+}

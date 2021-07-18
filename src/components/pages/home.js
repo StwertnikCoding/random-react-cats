@@ -9,10 +9,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        return (
-        
-        <h2>Homepage</h2>
-
+      
         <div>
             <MockBar />
         </div>
