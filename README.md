@@ -1,5 +1,5 @@
-# React/Redux/Router Starter Project
+# Random React Cat BY Tyler Stwertnik
 
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
+>Generate a random cat image by clicking the button
 
 *Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
